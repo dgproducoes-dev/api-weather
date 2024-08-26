@@ -6,7 +6,7 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       'http://localhost:3000',
-      'https://monitoramento.martinello.com.br/',
+      'https://monitoramento.martinello.com.br',
     ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS', // Permite apenas estes métodos HTTP
     allowedHeaders: 'Content-Type, Accept', // Permite apenas estes cabeçalhos
