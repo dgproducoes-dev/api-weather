@@ -8,7 +8,7 @@ async function bootstrap() {
       'http://localhost:3000',
       'https://monitoramento.martinello.com.br/',
     ],
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Permite apenas estes métodos HTTP
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS', // Permite apenas estes métodos HTTP
     allowedHeaders: 'Content-Type, Accept', // Permite apenas estes cabeçalhos
     credentials: true, // Permite o envio de cookies e credenciais de autenticação (se necessário)
   });
